@@ -1,0 +1,18 @@
+{
+    "-- Themes": {
+      "type": "separator",
+      "title": "الثيمات"
+    },
+    "jameel": {
+      "title": "ثيم جميل",
+      "type": "page"
+    },
+    "luxe-salla": {
+      "title": "ثيم لوكس (سلة)",
+      "type": "page"
+    },
+    "luxury": {
+      "title": "ثيم لوكشري",
+      "type": "page"
+    }
+}

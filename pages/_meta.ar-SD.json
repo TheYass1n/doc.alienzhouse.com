@@ -1,0 +1,22 @@
+{
+    "index": {
+      "type": "page",
+      "title": "الصفحة الرئيسية",
+      "theme": {
+        "layout": "full"
+      }
+    }, 
+    "docs": {
+      "type": "menu",
+      "title": "الثيمــــات",
+      "items": {
+        "jameel": { "title": "ثيم جميل", "href": "/docs/jameel/intro" },
+        "luxe-salla": { "title": "ثيم لوكس (سلة)", "href": "/docs/luxe-salla/intro" },
+        "luxury": { "title": "ثيم لوكشري", "href": "/docs/luxury/intro" }
+      }
+    },
+    "alienzgpt-assistant": {
+      "type": "page",
+      "title": "مساعد الذكاء الاصطناعي (AlienzGPT)"
+    }
+  }
