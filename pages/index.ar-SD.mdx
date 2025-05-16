@@ -5,27 +5,88 @@ title: ثيم جميل لتصميم المتاجر الالكترونية
 import Link from "next/link" 
 import { Screenshot } from "components/screenshot";
 
-import IntroImage from "assets/screenshots/intro.jpg"
+import IntroImage from "/assets/screenshots/intro.jpg"
+import JameelPreviewImage from "assets/jameel/jameel-theme-preview.avif"
+import LuxeSallaPreviewImage from "assets/luxe-salla/luxe-salla-theme-preview.avif"
+import LuxuryPreviewImage from "assets/luxury/luxury-zid-preview.avif"
 
 <div className="home-content">
 
  <div className="flex flex-col justify-center mt-6 lg:mt-20 items-center">
-  <div className="content-container flex flex-col items-center justify-center ">
-    <h1 className="headline items-center text-center">أنشئ متاجر رائعة بسهولة مع ثيم جميل <br className='sm:block hidden'/>  متوفر على منصة سلة. </h1>
-    <p className="subtitle text-center text-base max-w-4xl">استمتع بتجربة تسوق فريدة مع ثيم "جميل". صُمم خصيصًا ليتناسب مع جميع أنواع المتاجر، ويضفي لمسة من الأناقة والعصرية على منتجاتك. يتميز بتصميمه البسيط والجذاب، وألوانه المتناسقة التي تجعل تجربة التصفح مريحة وسلسة. مع ثيم جميل، احصل على واجهة مستخدم مميزة، وخيارات تخصيص متعددة تتيح لك إظهار علامتك التجارية بأفضل صورة.</p>
-    <p className="subtitle mt-6 bg-black hover:bg-yellow-500 text-white font-bold py-2 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-      <Link  href="https://s.salla.sa/marketplace/themes/147641223/preview">اشتـــــري الان<span>→</span></Link>
-    </p> 
-  </div> 
+  
   <div className="mt-10 w-full">
-    <Screenshot src={IntroImage} alt="Media Slide Component" />
   </div></div>
+  <div className="themes-showcase mt-16 w-full flex flex-col items-center">
+    <h2 className="text-3xl font-bold mb-8 text-center">الثيمات المتوفرة</h2>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
+      {/* Jameel Theme */}
+      <div className="theme-card bg-white dark:bg-neutral-900 rounded-2xl shadow p-6 flex flex-col items-center">
+        <img src={JameelPreviewImage.src} alt="Jameel Theme" className="rounded-xl w-full aspect-[2/1] object-cover mb-4" />
+        <h3 className="text-xl font-bold mb-2">ثيم جميل</h3>
+        <p className="text-gray-600 dark:text-gray-300 mb-4 text-center">ثيم عصري ومرن لمتاجر الأزياء واللايف ستايل على منصة سلة. يوفر تجربة عرض منتجات أنيقة وسهلة التخصيص مع العديد من الميزات المتقدمة.</p>
+        <Link href="/docs/jameel/intro.ar-SD" className="bg-black text-white px-4 py-2 rounded-full font-bold hover:bg-yellow-500 transition">تعرف على جميل</Link>
+      </div>
+      {/* Luxe Salla Theme */}
+      <div className="theme-card bg-white dark:bg-neutral-900 rounded-2xl shadow p-6 flex flex-col items-center">
+        <img src={LuxeSallaPreviewImage.src} alt="Luxe Salla Theme" className="rounded-xl w-full aspect-[2/1] object-cover mb-4" />
+        <h3 className="text-xl font-bold mb-2">ثيم لوكس</h3>
+        <p className="text-gray-600 dark:text-gray-300 mb-4 text-center">ثيم لوكس يمنحك تحكمًا كاملاً في مظهر متجرك مع خيارات تخصيص متقدمة وتصميم عصري يناسب جميع أنواع المتاجر.</p>
+        <Link href="/docs/luxe-salla/features.ar-SD" className="bg-black text-white px-4 py-2 rounded-full font-bold hover:bg-yellow-500 transition">تعرف على لوكس</Link>
+      </div>
+      {/* Luxury Theme */}
+      <div className="theme-card bg-white dark:bg-neutral-900 rounded-2xl shadow p-6 flex flex-col items-center">
+        <img src={LuxuryPreviewImage.src} alt="Luxury Theme" className="rounded-xl w-full aspect-[2/1] object-cover mb-4" />
+        <h3 className="text-xl font-bold mb-2">ثيم لاكشري</h3>
+        <p className="text-gray-600 dark:text-gray-300 mb-4 text-center">ثيم لاكشري قابل للتخصيص بدرجة عالية ومثالي للعلامات التجارية الجريئة التي تبحث عن التميز.</p>
+        <Link href="/docs/luxury/intro.ar-SD" className="bg-black text-white px-4 py-2 rounded-full font-bold hover:bg-yellow-500 transition">تعرف على لاكشري</Link>
+      </div>
+    </div>
+  </div>
   <style jsx>{`
     .content-container {
       max-width: 90rem;
       padding-left: max(env(safe-area-inset-left),1.5rem); 
       padding-right: max(env(safe-area-inset-right),1.5rem);
       margin: 0 auto;
+    }
+    .theme-card {
+      transition: box-shadow 0.2s, background 0.2s;
+    }
+    .theme-card {
+      background: #fff;
+    }
+    :global(.dark) .theme-card {
+      background: #23272f;
+      border: 1px solid #23272f;
+      box-shadow: 0 2px 16px 0 rgba(0,0,0,0.12);
+    }
+    .theme-card h3 {
+      color: #18181b;
+    }
+    :global(.dark) .theme-card h3 {
+      color: #fff;
+    }
+    .theme-card p {
+      color: #444;
+    }
+    :global(.dark) .theme-card p {
+      color: #d1d5db;
+    }
+    .theme-card a {
+      background: #18181b;
+      color: #fff;
+    }
+    .theme-card a:hover {
+      background: #facc15;
+      color: #18181b;
+    }
+    :global(.dark) .theme-card a {
+      background: #fff;
+      color: #18181b;
+    }
+    :global(.dark) .theme-card a:hover {
+      background: #facc15;
+      color: #18181b;
     }
     .features-container {
       margin: 8rem 0 0;
