@@ -14,5 +14,9 @@
     "luxury": {
       "title": "ثيم لوكشري",
       "type": "page"
+    },
+    "mobile-app": {
+      "title": "مكونات تطبيق الجوال فقط",
+      "type": "page"
     }
 }
