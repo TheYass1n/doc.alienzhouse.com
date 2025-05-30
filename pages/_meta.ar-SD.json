@@ -12,6 +12,7 @@
       "items": {
         "jameel": { "title": "ثيم جميل", "href": "/docs/jameel/intro" },
         "luxe-salla": { "title": "ثيم لوكس (سلة)", "href": "/docs/luxe-salla/intro" },
+        "royale-zid": { "title": "ثيم رويال (زد)", "href": "/docs/royale-zid/features" },
         "luxury": { "title": "ثيم لوكشري", "href": "/docs/luxury/intro" }
       }
     },
