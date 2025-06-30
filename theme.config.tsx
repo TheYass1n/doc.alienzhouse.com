@@ -12,6 +12,12 @@ const config: DocsThemeConfig = {
 
     </div>
   ),
+  
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Alienz House Docs'
+    }
+  },
   project: {
     // link: "https://github.com/shuding/nextra-docs-template",
   },
