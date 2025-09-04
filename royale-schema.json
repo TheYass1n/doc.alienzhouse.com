@@ -1,0 +1,2881 @@
+{
+  "general": {
+    "name": {
+      "ar": "اعدادات عامة",
+      "en": "General settings"
+    },
+    "icon": "fa fa-cog",
+    "display": true,
+    "settings": {
+      "border_radius": {
+        "type": "fieldset",
+        "label": {
+          "ar": "الزوايا العناصر في المتجر",
+          "en": " Border radius of elements in the store"
+        },
+        "icon": "font_awesome",
+        "expandable": true,
+        "settings": {
+          "genral_border_radius": {
+            "type": "range",
+            "label": {
+              "ar": " الزاوية العامة للعناصر",
+              "en": "General border radius"
+            },
+            "info": {
+              "ar": "تعيين الزاوية العامة للعناصر في المتجر مثل عناصر الصفحة الرئيسية و النوافذ المنبثقة الحد الاقصى 25px",
+              "en": " Set the general border radius of elements in the store such as home page elements and pop-up windows max 25px"
+            },
+            "minimum": 0,
+            "maximum": 25,
+            "step": 1
+          },
+          "buttons_border_radius": {
+            "type": "range",
+            "label": {
+              "ar": " الزاوية العامة للزر",
+              "en": "General border radius of button"
+            },
+            "info": {
+              "ar": "تعيين الزاوية العامة للزر في المتجر الحد الاقصى 25px",
+              "en": " Set the general border radius of button in the store max 25px"
+            },
+            "minimum": 0,
+            "maximum": 25,
+            "step": 1
+          },
+          "form_inputs_border_radius": {
+            "type": "range",
+            "label": {
+              "ar": " الزاوية العامة لحقول الادخال",
+              "en": "General border radius of input fields"
+            },
+            "info": {
+              "ar": "تعيين الزاوية العامة لحقول الادخال في المتجر الحد الاقصى 25px",
+              "en": " Set the general border radius of input fields in the store max 25px"
+            },
+            "minimum": 0,
+            "maximum": 25,
+            "step": 1
+          }
+        }
+      }
+    }
+  },
+  "fonts": {
+    "name": {
+      "ar": "الخطوط",
+      "en": "fonts"
+    },
+    "icon": "fa fa-font",
+    "display": true,
+    "settings": {
+      "name": {
+        "type": "select",
+        "label": {
+          "ar": "اسم الخط",
+          "en": "Font name"
+        },
+        "options": [
+          {
+            "value": "auto",
+            "label": {
+              "ar": "تلقائي (لغه جهاز المستخدم)",
+              "en": "Auto (User's device language)"
+            }
+          },
+          {
+            "value": "Rubik",
+            "label": {
+              "ar": "Rubik",
+              "en": "Rubik"
+            }
+          },
+          {
+            "value": "Cairo",
+            "label": {
+              "ar": "Cairo",
+              "en": "Cairo"
+            }
+          },
+          {
+            "value": "Tajawal",
+            "label": {
+              "ar": "Tajawal",
+              "en": "Tajawal"
+            }
+          },
+          {
+            "value": "IBM+Plex+Sans+Arabic",
+            "label": {
+              "ar": "IBM Plex Sans Arabic",
+              "en": "IBM Plex Sans Arabic"
+            }
+          },
+          {
+            "value": "Almarai",
+            "label": {
+              "ar": "Almarai",
+              "en": "Almarai"
+            }
+          },
+          {
+            "value": "Amiri",
+            "label": {
+              "ar": "Amiri",
+              "en": "Amiri"
+            }
+          },
+          {
+            "value": "Changa",
+            "label": {
+              "ar": "Changa",
+              "en": "Changa"
+            }
+          },
+          {
+            "value": "El+Messiri",
+            "label": {
+              "ar": "El Messiri",
+              "en": "El Messiri"
+            }
+          },
+          {
+            "value": "Readex+Pro",
+            "label": {
+              "ar": "Readex Pro",
+              "en": "Readex Pro"
+            }
+          },
+          {
+            "value": "Mada",
+            "label": {
+              "ar": "Mada",
+              "en": "Mada"
+            }
+          },
+          {
+            "value": "Noto+Naskh+Arabic",
+            "label": {
+              "ar": "Noto Naskh Arabic",
+              "en": "Noto Naskh Arabic"
+            }
+          },
+          {
+            "value": "Lalezar",
+            "label": {
+              "ar": "Lalezar",
+              "en": "Lalezar"
+            }
+          },
+          {
+            "value": "Markazi+Text",
+            "label": {
+              "ar": "Markazi Text",
+              "en": "Markazi Text"
+            }
+          },
+          {
+            "value": "Reem+Kufi",
+            "label": {
+              "ar": "Reem Kufi",
+              "en": "Reem Kufi"
+            }
+          },
+          {
+            "value": "Lemonada",
+            "label": {
+              "ar": "Lemonada",
+              "en": "Lemonada"
+            }
+          },
+          {
+            "value": "Alexandria",
+            "label": {
+              "ar": "Alexandria",
+              "en": "Alexandria"
+            }
+          },
+          {
+            "value": "Noto+Nastaliq+Urdu",
+            "label": {
+              "ar": "Noto Nastaliq Urdu",
+              "en": "Noto Nastaliq Urdu"
+            }
+          },
+          {
+            "value": "Lateef",
+            "label": {
+              "ar": "Lateef",
+              "en": "Lateef"
+            }
+          },
+          {
+            "value": "Aref+Ruqaa",
+            "label": {
+              "ar": "Aref Ruqaa",
+              "en": "Aref Ruqaa"
+            }
+          },
+          {
+            "value": "Vazirmatn",
+            "label": {
+              "ar": "Vazirmatn",
+              "en": "Vazirmatn"
+            }
+          },
+          {
+            "value": "Mirza",
+            "label": {
+              "ar": "Mirza",
+              "en": "Mirza"
+            }
+          },
+          {
+            "value": "Harmattan",
+            "label": {
+              "ar": "Harmattan",
+              "en": "Harmattan"
+            }
+          },
+          {
+            "value": "Rakkas",
+            "label": {
+              "ar": "Rakkas",
+              "en": "Rakkas"
+            }
+          },
+          {
+            "value": "Kufam",
+            "label": {
+              "ar": "Kufam",
+              "en": "Kufam"
+            }
+          },
+          {
+            "value": "Jomhuria",
+            "label": {
+              "ar": "Jomhuria",
+              "en": "Jomhuria"
+            }
+          },
+          {
+            "value": "Katibeh",
+            "label": {
+              "ar": "Katibeh",
+              "en": "Katibeh"
+            }
+          },
+          {
+            "value": "Baloo+Bhaijaan+2",
+            "label": {
+              "ar": "Baloo Bhaijaan 2",
+              "en": "Baloo Bhaijaan 2"
+            }
+          },
+          {
+            "value": "Scheherazade",
+            "label": {
+              "ar": "Scheherazade",
+              "en": "Scheherazade"
+            }
+          },
+          {
+            "value": "Mada",
+            "label": {
+              "ar": "Mada",
+              "en": "Mada"
+            }
+          },
+          {
+            "value": "Lateef",
+            "label": {
+              "ar": "Lateef",
+              "en": "Lateef"
+            }
+          },
+          {
+            "value": "Reem+Kufi",
+            "label": {
+              "ar": "Reem Kufi",
+              "en": "Reem Kufi"
+            }
+          }
+        ],
+        "default": "Changa"
+      },
+      "font_weight": {
+        "type": "select",
+        "label": {
+          "ar": "سمك الخطوط و الايقونات",
+          "en": "Font and Icoins weight"
+        },
+        "options": [
+          {
+            "value": "light",
+            "label": {
+              "ar": " خفيف",
+              "en": "Light"
+            }
+          },
+          {
+            "value": "regular",
+            "label": {
+              "ar": " عادي",
+              "en": "Regular"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "scroll_announcement_bar": {
+    "name": {
+      "ar": "شريط التنبيهات متحرك",
+      "en": "Announcement bar Merquree"
+    },
+    "icon": "font_awesome",
+    "display": true,
+    "expandable": true,
+    "settings": {
+      "display": {
+        "type": "checkbox",
+        "label": {
+          "ar": " ",
+          "en": " "
+        },
+        "option": {
+          "ar": "إظهار شريط التنبيهات",
+          "en": "Display announcement bar"
+        },
+        "noLabel": true
+      },
+      "text_list": {
+        "type": "list",
+        "label": {
+          "ar": "النصوص",
+          "en": "Texts"
+        },
+        "info": {
+          "ar": "يمكنك اضافة نصوص متعددة للشريط",
+          "en": "This is an info text sample here"
+        },
+        "settings": {
+          "text": {
+            "type": "text",
+            "label": {
+              "ar": "النص",
+              "en": "Text"
+            }
+          },
+          "url": {
+            "type": "url",
+            "label": {
+              "ar": "الرابط",
+              "en": "Link"
+            },
+            "info": {
+              "ar": "في حال كان الحقل فارغا لن يتم الانتقال للرابط عند الضغط",
+              "en": "This is an info text sample here"
+            }
+          }
+        },
+        "info": {
+          "ar": "يفضل إضافة أكثر من 3 إعلانات لضمان حركة سلسة للشريط. في حال كانت الإعلانات محدودة، يمكنك تكرارها لتحسين سلاسة الحركة.",
+          "en": "It is recommended to add more than 3 ads to ensure smooth scrolling of the banner. If the number of ads is limited, you can repeat them to enhance the smoothness of the motion."
+        }
+      },
+      "page_display": {
+        "type": "select",
+        "label": {
+          "ar": "عرض شريط التنبيهات في",
+          "en": "Display announcement bar in"
+        },
+        "options": [
+          {
+            "value": "all",
+            "label": {
+              "ar": "جميع الصفحات",
+              "en": "all pages"
+            }
+          },
+          {
+            "value": "home",
+            "label": {
+              "ar": "الصفحة الرئيسية ففط",
+              "en": "home page only"
+            }
+          }
+        ],
+        "default": "all"
+      },
+      "background_color": {
+        "type": "color",
+        "label": {
+          "ar": "لون الخلفية",
+          "en": "Text color"
+        }
+      },
+      "text_color": {
+        "type": "color",
+        "label": {
+          "ar": "لون النص",
+          "en": "Text color"
+        }
+      },
+      "icon_color": {
+        "type": "color",
+        "label": {
+          "ar": "لون الايقونات",
+          "en": "Icons color"
+        }
+      }
+    }
+  },
+  "popup_builder": {
+    "name": {
+      "ar": "منشئ النوافذ المنبثقة",
+      "en": "Popup Builder"
+    },
+    "icon": "fa fa-window-maximize",
+    "display": true,
+    "settings": {
+      "popup_fieldset": {
+        "type": "fieldset",
+        "label": {
+          "ar": "إعدادات النافذة المنبثقة",
+          "en": "Popup Settings"
+        },
+        "expandable": true,
+        "settings": {
+          "enable_popup": {
+            "type": "checkbox",
+            "label": {
+              "ar": "تفعيل النافذة المنبثقة",
+              "en": "Enable Popup"
+            },
+            "option": {
+              "ar": "تفعيل",
+              "en": "Enable"
+            },
+            "noLabel": true
+          },
+          "popup_type": {
+            "type": "select",
+            "label": {
+              "ar": "نوع النافذة المنبثقة",
+              "en": "Popup Type"
+            },
+            "options": [
+              {
+                "value": "promotion",
+                "label": {
+                  "ar": "عرض ترويجي",
+                  "en": "Promotional Offer"
+                }
+              },
+              {
+                "value": "coupon",
+                "label": {
+                  "ar": "كوبون خصم",
+                  "en": "Coupon Code"
+                }
+              }
+            ],
+            "default": "promotion"
+          }
+        }
+      },
+      "content_fieldset": {
+        "type": "fieldset",
+        "label": {
+          "ar": "المحتوى",
+          "en": "Content"
+        },
+        "expandable": true,
+        "settings": {
+          "popup_title": {
+            "type": "text",
+            "label": {
+              "ar": "عنوان النافذة",
+              "en": "Popup Title"
+            },
+            "default": {
+              "ar": "اشترك في نشرتنا البريدية",
+              "en": "Subscribe to our newsletter"
+            }
+          },
+          "popup_description": {
+            "type": "textarea",
+            "label": {
+              "ar": "وصف النافذة",
+              "en": "Popup Description"
+            },
+            "default": {
+              "ar": "احصل على آخر العروض والأخبار",
+              "en": "Get the latest offers and news"
+            }
+          },
+          "popup_image": {
+            "type": "image",
+            "label": {
+              "ar": "صورة النافذة",
+              "en": "Popup Image"
+            },
+            "info": {
+              "ar": "صورة اختيارية لعرضها في النافذة المنبثقة",
+              "en": "Optional image to display in the popup"
+            }
+          },
+          "image_aspect_ratio": {
+            "type": "select",
+            "label": {
+              "ar": "نسبة العرض إلى الارتفاع للصورة",
+              "en": "Image Aspect Ratio"
+            },
+            "options": [
+              {
+                "value": "auto",
+                "label": {
+                  "ar": "تلقائي (النسبة الأصلية)",
+                  "en": "Auto (original ratio)"
+                }
+              },
+              {
+                "value": "square",
+                "label": {
+                  "ar": "مربع (1:1)",
+                  "en": "Square (1:1)"
+                }
+              },
+              {
+                "value": "landscape",
+                "label": {
+                  "ar": "أفقي (4:3)",
+                  "en": "Landscape (4:3)"
+                }
+              },
+              {
+                "value": "widescreen",
+                "label": {
+                  "ar": "عريض (16:9)",
+                  "en": "Widescreen (16:9)"
+                }
+              },
+              {
+                "value": "portrait",
+                "label": {
+                  "ar": "عمودي (3:4)",
+                  "en": "Portrait (3:4)"
+                }
+              },
+              {
+                "value": "tall",
+                "label": {
+                  "ar": "طويل (9:16)",
+                  "en": "Tall (9:16)"
+                }
+              }
+            ],
+            "default": "auto",
+            "info": {
+              "ar": "اختر نسبة العرض إلى الارتفاع المطلوبة للصورة في النافذة المنبثقة",
+              "en": "Choose the desired aspect ratio for the image in the popup"
+            }
+          },
+          "cta_text": {
+            "type": "text",
+            "label": {
+              "ar": "نص الدعوة لاتخاذ إجراء",
+              "en": "Call to Action Text"
+            },
+            "default": {
+              "ar": "اشترك الآن",
+              "en": "Subscribe Now"
+            }
+          },
+          "cta_url": {
+            "type": "url",
+            "label": {
+              "ar": "رابط الدعوة لاتخاذ إجراء",
+              "en": "Call to Action URL"
+            },
+            "default": {
+              "ar": "",
+              "en": ""
+            },
+            "info": {
+              "ar": "الرابط الذي سيتم توجيه المستخدم إليه عند الضغط على زر الدعوة لاتخاذ إجراء",
+              "en": "The URL to redirect users when they click the call to action button"
+            }
+          },
+          "coupon_code": {
+            "type": "text",
+            "label": {
+              "ar": "كود الكوبون",
+              "en": "Coupon Code"
+            },
+            "default": {
+              "ar": "SAVE20",
+              "en": "SAVE20"
+            },
+            "info": {
+              "ar": "أدخل كود الكوبون الذي سيتم عرضه للنسخ (يظهر فقط عند اختيار نوع النافذة: كوبون خصم)",
+              "en": "Enter the coupon code to be displayed for copying (only shows when popup type is Discount Coupon)"
+            }
+          },
+          "close_text": {
+            "type": "text",
+            "label": {
+              "ar": "نص زر الإغلاق",
+              "en": "Close Button Text"
+            },
+            "default": {
+              "ar": "لا شكراً",
+              "en": "No Thanks"
+            }
+          },
+          "enable_countdown": {
+            "type": "checkbox",
+            "label": {
+              "ar": "تفعيل العد التنازلي",
+              "en": "Enable Countdown Timer"
+            },
+            "option": {
+              "ar": "إظهار مؤقت العد التنازلي",
+              "en": "Show countdown timer"
+            },
+            "noLabel": false,
+            "default": false,
+            "info": {
+              "ar": "أضف مؤقت عد تنازلي لخلق شعور بالإلحاح",
+              "en": "Add a countdown timer to create urgency"
+            }
+          },
+          "countdown_duration": {
+            "type": "number",
+            "label": {
+              "ar": "مدة العد التنازلي (بالدقائق)",
+              "en": "Countdown Duration (minutes)"
+            },
+            "minimum": 1,
+            "maximum": 10080,
+            "default": 30,
+            "placeholder": "30",
+            "info": {
+              "ar": "المدة بالدقائق للعد التنازلي. سيظهر بتنسيق ساعات متواصلة (مثال: 30 دقيقة = 00:30:00، 90 دقيقة = 01:30:00، 1500 دقيقة = 25:00:00)",
+              "en": "Duration in minutes for countdown. Will display in continuous hours format (Example: 30 minutes = 00:30:00, 90 minutes = 01:30:00, 1500 minutes = 25:00:00)"
+            }
+          },
+          "countdown_text": {
+            "type": "text",
+            "label": {
+              "ar": "نص العد التنازلي",
+              "en": "Countdown Text"
+            },
+            "default": {
+              "ar": "العرض ينتهي خلال:",
+              "en": "Offer ends in:"
+            },
+            "info": {
+              "ar": "النص الذي يظهر قبل مؤقت العد التنازلي",
+              "en": "Text that appears before the countdown timer"
+            }
+          },
+          "countdown_expired_text": {
+            "type": "text",
+            "label": {
+              "ar": "نص انتهاء العد التنازلي",
+              "en": "Countdown Expired Text"
+            },
+            "default": {
+              "ar": "انتهى العرض!",
+              "en": "Offer Expired!"
+            },
+            "info": {
+              "ar": "النص الذي يظهر عند انتهاء العد التنازلي",
+              "en": "Text shown when countdown reaches zero"
+            }
+          },
+          "countdown_bg_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون خلفية العداد",
+              "en": "Countdown Background Color"
+            },
+            "default": "#fee2e2",
+            "info": {
+              "ar": "اختر لون خلفية صناديق العد التنازلي",
+              "en": "Choose the countdown timer background color"
+            }
+          },
+          "countdown_time_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون الأرقام في العداد",
+              "en": "Countdown Numbers Color"
+            },
+            "default": "#dc2626",
+            "info": {
+              "ar": "اختر لون الأرقام في العداد الزمني",
+              "en": "Choose the color for countdown numbers"
+            }
+          },
+          "countdown_label_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون عناوين العداد",
+              "en": "Countdown Labels Color"
+            },
+            "default": "#991b1b",
+            "info": {
+              "ar": "اختر لون النصوص التوضيحية في العداد (أيام، ساعات، دقائق)",
+              "en": "Choose the color for countdown labels (days, hours, minutes)"
+            }
+          }
+        }
+      },
+      "teaser_fieldset": {
+    "type": "fieldset",
+    "label": {
+      "ar": "إعدادات التشويق",
+      "en": "Teaser Settings"
+    },
+    "info": {
+      "ar": "إعدادات عرض رسالة تشويقية صغيرة قبل ظهور النافذة المنبثقة",
+      "en": "Settings for showing a small teaser message before the popup appears"
+    },
+    "expandable": true,
+    "settings": {
+      "enable_teaser": {
+        "type": "checkbox",
+        "label": {
+          "ar": "تفعيل التشويق",
+          "en": "Enable Teaser"
+        },
+        "default": false,
+        "info": {
+          "ar": "اعرض رسالة تشويقية صغيرة قبل ظهور النافذة الرئيسية",
+          "en": "Show a small teaser message before the main popup appears"
+        }
+      },
+      "teaser_text": {
+        "type": "text",
+        "label": {
+          "ar": "نص التشويق",
+          "en": "Teaser Text"
+        },
+        "default": "🎁 عرض خاص متاح!",
+        "info": {
+          "ar": "النص الذي سيظهر في رسالة التشويق",
+          "en": "Text that will appear in the teaser message"
+        },
+        "condition": "enable_teaser"
+      },
+      "teaser_position": {
+        "type": "select",
+        "label": {
+          "ar": "موضع التشويق",
+          "en": "Teaser Position"
+        },
+        "options": [
+          {
+            "value": "bottom_right",
+            "label": {
+              "ar": "أسفل اليمين",
+              "en": "Bottom Right"
+            }
+          },
+          {
+            "value": "bottom_left",
+            "label": {
+              "ar": "أسفل اليسار",
+              "en": "Bottom Left"
+            }
+          },
+          {
+            "value": "top_right",
+            "label": {
+              "ar": "أعلى اليمين",
+              "en": "Top Right"
+            }
+          },
+          {
+            "value": "side_tab",
+            "label": {
+              "ar": "تبويب جانبي",
+              "en": "Side Tab"
+            }
+          }
+        ],
+        "default": "bottom_right",
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "اختر مكان ظهور رسالة التشويق على الشاشة",
+          "en": "Choose where the teaser message appears on screen"
+        }
+      },
+      "teaser_size": {
+        "type": "select",
+        "label": {
+          "ar": "حجم التشويق",
+          "en": "Teaser Size"
+        },
+        "options": [
+          {
+            "value": "small",
+            "label": {
+              "ar": "صغير",
+              "en": "Small"
+            }
+          },
+          {
+            "value": "medium",
+            "label": {
+              "ar": "متوسط",
+              "en": "Medium"
+            }
+          },
+          {
+            "value": "large",
+            "label": {
+              "ar": "كبير",
+              "en": "Large"
+            }
+          }
+        ],
+        "default": "medium",
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "اختر حجم رسالة التشويق",
+          "en": "Choose the size of the teaser message"
+        }
+      },
+      "teaser_show_delay": {
+        "type": "number",
+        "label": {
+          "ar": "تأخير ظهور التشويق (ثانية)",
+          "en": "Teaser Show Delay (seconds)"
+        },
+        "minimum": 0,
+        "maximum": 60,
+        "step": 1,
+        "default": 3,
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "المدة قبل ظهور رسالة التشويق بالثواني",
+          "en": "Time before teaser appears in seconds"
+        }
+      },
+      "teaser_duration": {
+        "type": "number",
+        "label": {
+          "ar": "مدة عرض التشويق (ثانية)",
+          "en": "Teaser Display Duration (seconds)"
+        },
+        "minimum": 5,
+        "maximum": 120,
+        "step": 1,
+        "default": 15,
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "كم ثانية ستبقى رسالة التشويق ظاهرة قبل إخفائها تلقائياً",
+          "en": "How long the teaser stays visible before auto-hiding"
+        }
+      },
+      "teaser_background_color": {
+        "type": "color",
+        "label": {
+          "ar": "لون خلفية التشويق",
+          "en": "Teaser Background Color"
+        },
+        "default": "#dc2626",
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "اختر لون خلفية رسالة التشويق",
+          "en": "Choose the teaser background color"
+        }
+      },
+      "teaser_text_color": {
+        "type": "color",
+        "label": {
+          "ar": "لون نص التشويق",
+          "en": "Teaser Text Color"
+        },
+        "default": "#ffffff",
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "اختر لون نص رسالة التشويق",
+          "en": "Choose the teaser text color"
+        }
+      },
+      "teaser_animation": {
+        "type": "select",
+        "label": {
+          "ar": "حركة التشويق",
+          "en": "Teaser Animation"
+        },
+        "options": [
+          {
+            "value": "pulse",
+            "label": {
+              "ar": "نبضة",
+              "en": "Pulse"
+            }
+          },
+          {
+            "value": "bounce",
+            "label": {
+              "ar": "ارتداد",
+              "en": "Bounce"
+            }
+          },
+          {
+            "value": "shake",
+            "label": {
+              "ar": "اهتزاز",
+              "en": "Shake"
+            }
+          },
+          {
+            "value": "glow",
+            "label": {
+              "ar": "توهج",
+              "en": "Glow"
+            }
+          },
+          {
+            "value": "none",
+            "label": {
+              "ar": "بدون حركة",
+              "en": "No Animation"
+            }
+          }
+        ],
+        "default": "pulse",
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "اختر نوع الحركة لجذب الانتباه لرسالة التشويق",
+          "en": "Choose animation type to attract attention to the teaser"
+        }
+      },
+      "teaser_border_radius": {
+        "type": "number",
+        "label": {
+          "ar": "استدارة حواف التشويق",
+          "en": "Teaser Border Radius"
+        },
+        "minimum": 0,
+        "maximum": 50,
+        "step": 1,
+        "default": 25,
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "مدى استدارة حواف رسالة التشويق",
+          "en": "How rounded the teaser corners are"
+        }
+      },
+      "teaser_image": {
+        "type": "image",
+        "label": {
+          "ar": "صورة التشويق",
+          "en": "Teaser Image"
+        },
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "اختر صورة صغيرة لعرضها في رسالة التشويق (اختيارية)",
+          "en": "Choose a small image to display in the teaser message (optional)"
+        }
+      },
+      "teaser_image_size": {
+        "type": "select",
+        "label": {
+          "ar": "حجم صورة التشويق",
+          "en": "Teaser Image Size"
+        },
+        "options": [
+          {
+            "value": "16",
+            "label": {
+              "ar": "صغير جداً (16px)",
+              "en": "Extra Small (16px)"
+            }
+          },
+          {
+            "value": "20",
+            "label": {
+              "ar": "صغير (20px)",
+              "en": "Small (20px)"
+            }
+          },
+          {
+            "value": "24",
+            "label": {
+              "ar": "متوسط (24px)",
+              "en": "Medium (24px)"
+            }
+          },
+          {
+            "value": "32",
+            "label": {
+              "ar": "كبير (32px)",
+              "en": "Large (32px)"
+            }
+          }
+        ],
+        "default": "20",
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "اختر حجم الصورة في رسالة التشويق",
+          "en": "Choose the image size in the teaser message"
+        }
+      },
+      "teaser_persistent": {
+        "type": "checkbox",
+        "label": {
+          "ar": "الحفاظ على التشويق مفتوحاً",
+          "en": "Keep Teaser Persistent"
+        },
+        "option": {
+          "ar": "أبقِ رسالة التشويق ظاهرة حتى بعد إغلاق النافذة الرئيسية",
+          "en": "Keep teaser visible even after main popup is closed"
+        },
+        "noLabel": false,
+        "default": false,
+        "condition": "enable_teaser",
+        "info": {
+          "ar": "عند التفعيل، ستبقى رسالة التشويق ظاهرة حتى بعد إغلاق النافذة الرئيسية، مما يسمح للمستخدمين بإعادة فتحها",
+          "en": "When enabled, teaser remains visible even after main popup is closed, allowing users to reopen it"
+        }
+      }
+    }
+  },
+      "behavior_fieldset": {
+        "type": "fieldset",
+        "label": {
+          "ar": "سلوك النافذة",
+          "en": "Popup Behavior"
+        },
+        "expandable": true,
+        "settings": {
+          "trigger_type": {
+            "type": "select",
+            "label": {
+              "ar": "نوع المحفز",
+              "en": "Trigger Type"
+            },
+            "options": [
+              {
+                "value": "time_delay",
+                "label": {
+                  "ar": "تأخير زمني",
+                  "en": "Time Delay"
+                }
+              },
+              {
+                "value": "exit_intent",
+                "label": {
+                  "ar": "نية المغادرة",
+                  "en": "Exit Intent"
+                }
+              },
+              {
+                "value": "scroll_percentage",
+                "label": {
+                  "ar": "نسبة التمرير",
+                  "en": "Scroll Percentage"
+                }
+              },
+              {
+                "value": "immediate",
+                "label": {
+                  "ar": "فوري",
+                  "en": "Immediate"
+                }
+              }
+            ],
+            "default": "time_delay"
+          },
+          "delay_seconds": {
+            "type": "number",
+            "label": {
+              "ar": "التأخير بالثواني",
+              "en": "Delay in Seconds"
+            },
+            "minimum": 1,
+            "maximum": 60,
+            "default": 5,
+            "info": {
+              "ar": "عدد الثواني قبل إظهار النافذة",
+              "en": "Number of seconds before showing popup"
+            }
+          },
+          "scroll_percentage": {
+            "type": "number",
+            "label": {
+              "ar": "نسبة التمرير (%)",
+              "en": "Scroll Percentage (%)"
+            },
+            "minimum": 10,
+            "maximum": 90,
+            "default": 50,
+            "info": {
+              "ar": "نسبة التمرير في الصفحة لإظهار النافذة",
+              "en": "Page scroll percentage to trigger popup"
+            }
+          },
+          "frequency": {
+            "type": "select",
+            "label": {
+              "ar": "تكرار الإظهار",
+              "en": "Display Frequency"
+            },
+            "options": [
+              {
+                "value": "once_per_session",
+                "label": {
+                  "ar": "مرة واحدة في الجلسة",
+                  "en": "Once per session"
+                }
+              },
+              {
+                "value": "once_per_day",
+                "label": {
+                  "ar": "مرة واحدة في اليوم",
+                  "en": "Once per day"
+                }
+              },
+              {
+                "value": "always",
+                "label": {
+                  "ar": "دائماً",
+                  "en": "Always"
+                }
+              }
+            ],
+            "default": "once_per_session"
+          },
+          "page_display": {
+            "type": "select",
+            "label": {
+              "ar": "عرض النافذة في",
+              "en": "Display Popup On"
+            },
+            "options": [
+              {
+                "value": "all",
+                "label": {
+                  "ar": "جميع الصفحات",
+                  "en": "All Pages"
+                }
+              },
+              {
+                "value": "home",
+                "label": {
+                  "ar": "الصفحة الرئيسية فقط",
+                  "en": "Homepage Only"
+                }
+              },
+              {
+                "value": "category",
+                "label": {
+                  "ar": "صفحات التصنيفات فقط",
+                  "en": "Category Pages Only"
+                }
+              },
+              {
+                "value": "product",
+                "label": {
+                  "ar": "صفحات المنتجات فقط",
+                  "en": "Product Pages Only"
+                }
+              }
+            ],
+            "default": "all"
+          },
+          "device_display": {
+            "type": "select",
+            "label": {
+              "ar": "عرض على الأجهزة",
+              "en": "Display on Devices"
+            },
+            "options": [
+              {
+                "value": "all",
+                "label": {
+                  "ar": "جميع الأجهزة",
+                  "en": "All Devices"
+                }
+              },
+              {
+                "value": "mobile_only",
+                "label": {
+                  "ar": "الموبايل فقط",
+                  "en": "Mobile Only"
+                }
+              },
+              {
+                "value": "desktop_only",
+                "label": {
+                  "ar": "سطح المكتب فقط",
+                  "en": "Desktop Only"
+                }
+              }
+            ],
+            "default": "all"
+          },
+          "animation_type": {
+            "type": "select",
+            "label": {
+              "ar": "نوع الحركة",
+              "en": "Animation Type"
+            },
+            "options": [
+              {
+                "value": "fade",
+                "label": {
+                  "ar": "تلاشي",
+                  "en": "Fade"
+                }
+              },
+              {
+                "value": "slide_up",
+                "label": {
+                  "ar": "انزلاق من الأسفل",
+                  "en": "Slide Up"
+                }
+              },
+              {
+                "value": "slide_down",
+                "label": {
+                  "ar": "انزلاق من الأعلى",
+                  "en": "Slide Down"
+                }
+              },
+              {
+                "value": "slide_left",
+                "label": {
+                  "ar": "انزلاق من اليمين",
+                  "en": "Slide Left"
+                }
+              },
+              {
+                "value": "slide_right",
+                "label": {
+                  "ar": "انزلاق من اليسار",
+                  "en": "Slide Right"
+                }
+              },
+              {
+                "value": "zoom_in",
+                "label": {
+                  "ar": "تكبير",
+                  "en": "Zoom In"
+                }
+              },
+              {
+                "value": "zoom_out",
+                "label": {
+                  "ar": "تصغير",
+                  "en": "Zoom Out"
+                }
+              },
+              {
+                "value": "bounce",
+                "label": {
+                  "ar": "ارتداد",
+                  "en": "Bounce"
+                }
+              }
+            ],
+            "default": "fade",
+            "info": {
+              "ar": "اختر نوع الحركة عند ظهور النافذة",
+              "en": "Choose the animation type when popup appears"
+            }
+          },
+          "animation_duration": {
+            "type": "select",
+            "label": {
+              "ar": "مدة الحركة",
+              "en": "Animation Duration"
+            },
+            "options": [
+              {
+                "value": "fast",
+                "label": {
+                  "ar": "سريع (0.2 ثانية)",
+                  "en": "Fast (0.2s)"
+                }
+              },
+              {
+                "value": "normal",
+                "label": {
+                  "ar": "عادي (0.3 ثانية)",
+                  "en": "Normal (0.3s)"
+                }
+              },
+              {
+                "value": "slow",
+                "label": {
+                  "ar": "بطيء (0.5 ثانية)",
+                  "en": "Slow (0.5s)"
+                }
+              }
+            ],
+            "default": "normal",
+            "info": {
+              "ar": "اختر سرعة الحركة عند ظهور واختفاء النافذة",
+              "en": "Choose animation speed for showing and hiding popup"
+            }
+          }
+        }
+      },
+      "styling_fieldset": {
+        "type": "fieldset",
+        "label": {
+          "ar": "التصميم",
+          "en": "Styling"
+        },
+        "expandable": true,
+        "settings": {
+          "popup_size_mobile": {
+            "type": "select",
+            "label": {
+              "ar": "حجم النافذة - الموبايل",
+              "en": "Popup Size - Mobile"
+            },
+            "options": [
+              {
+                "value": "small",
+                "label": {
+                  "ar": "صغير",
+                  "en": "Small"
+                }
+              },
+              {
+                "value": "medium",
+                "label": {
+                  "ar": "متوسط",
+                  "en": "Medium"
+                }
+              },
+              {
+                "value": "large",
+                "label": {
+                  "ar": "كبير",
+                  "en": "Large"
+                }
+              }
+            ],
+            "default": "medium",
+            "info": {
+              "ar": "اختر حجم النافذة المنبثقة للموبايل",
+              "en": "Choose the popup size for mobile devices"
+            }
+          },
+          "popup_size_desktop": {
+            "type": "select",
+            "label": {
+              "ar": "حجم النافذة - سطح المكتب",
+              "en": "Popup Size - Desktop"
+            },
+            "options": [
+              {
+                "value": "lg:small",
+                "label": {
+                  "ar": "صغير",
+                  "en": "Small"
+                }
+              },
+              {
+                "value": "lg:medium",
+                "label": {
+                  "ar": "متوسط",
+                  "en": "Medium"
+                }
+              },
+              {
+                "value": "lg:large",
+                "label": {
+                  "ar": "كبير",
+                  "en": "Large"
+                }
+              }
+            ],
+            "default": "lg:large",
+            "info": {
+              "ar": "اختر حجم النافذة المنبثقة لسطح المكتب",
+              "en": "Choose the popup size for desktop devices"
+            }
+          },
+          "popup_position_mobile": {
+            "type": "select",
+            "label": {
+              "ar": "موضع النافذة - الموبايل",
+              "en": "Popup Position - Mobile"
+            },
+            "options": [
+              {
+                "value": "center",
+                "label": {
+                  "ar": "وسط الشاشة",
+                  "en": "Center"
+                }
+              },
+              {
+                "value": "bottom_right",
+                "label": {
+                  "ar": "أسفل اليمين",
+                  "en": "Bottom Right"
+                }
+              },
+              {
+                "value": "bottom_left",
+                "label": {
+                  "ar": "أسفل اليسار",
+                  "en": "Bottom Left"
+                }
+              },
+              {
+                "value": "top_bar",
+                "label": {
+                  "ar": "شريط علوي",
+                  "en": "Top Bar"
+                }
+              }
+            ],
+            "default": "center",
+            "info": {
+              "ar": "اختر موضع النافذة المنبثقة على أجهزة الموبايل",
+              "en": "Choose popup position for mobile devices"
+            }
+          },
+          "popup_position_desktop": {
+            "type": "select",
+            "label": {
+              "ar": "موضع النافذة - سطح المكتب",
+              "en": "Popup Position - Desktop"
+            },
+            "options": [
+              {
+                "value": "lg:center",
+                "label": {
+                  "ar": "وسط الشاشة",
+                  "en": "Center"
+                }
+              },
+              {
+                "value": "lg:bottom_right",
+                "label": {
+                  "ar": "أسفل اليمين",
+                  "en": "Bottom Right"
+                }
+              },
+              {
+                "value": "lg:bottom_left",
+                "label": {
+                  "ar": "أسفل اليسار",
+                  "en": "Bottom Left"
+                }
+              },
+              {
+                "value": "lg:top_bar",
+                "label": {
+                  "ar": "شريط علوي",
+                  "en": "Top Bar"
+                }
+              }
+            ],
+            "default": "lg:center",
+            "info": {
+              "ar": "اختر موضع النافذة المنبثقة على أجهزة سطح المكتب",
+              "en": "Choose popup position for desktop devices"
+            }
+          },
+          "background_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون الخلفية",
+              "en": "Background Color"
+            },
+            "default": "#ffffff"
+          },
+          "text_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون النص",
+              "en": "Text Color"
+            },
+            "default": "#333333"
+          },
+          "overlay_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون الطبقة الخلفية",
+              "en": "Overlay Color"
+            },
+            "default": "rgba(0,0,0,0.5)"
+          },
+          "border_radius": {
+            "type": "number",
+            "label": {
+              "ar": "استدارة الحواف",
+              "en": "Border Radius"
+            },
+            "minimum": 0,
+            "maximum": 50,
+            "default": 12,
+            "info": {
+              "ar": "مدى استدارة حواف النافذة",
+              "en": "How rounded the popup corners are"
+            }
+          },
+          "enable_two_column": {
+            "type": "checkbox",
+            "label": {
+              "ar": "تخطيط عمودين (سطح المكتب)",
+              "en": "Two-Column Layout (Desktop)"
+            },
+            "option": {
+              "ar": "تفعيل تخطيط العمودين",
+              "en": "Enable Two-Column Layout"
+            },
+            "noLabel": false,
+            "default": true,
+            "info": {
+              "ar": "عرض النافذة في عمودين على سطح المكتب (الصورة على اليسار والمحتوى على اليمين)",
+              "en": "Display popup in two columns on desktop (image on left, content on right)"
+            }
+          }
+        }
+      },
+      "buttons_fieldset": {
+        "type": "fieldset",
+        "label": {
+          "ar": "إعدادات الأزرار",
+          "en": "Button Settings"
+        },
+        "expandable": true,
+        "settings": {
+          "buttons_variant": {
+            "type": "select",
+            "label": {
+              "ar": "شكل الزر",
+              "en": "Button Style"
+            },
+            "options": [
+              {
+                "value": "contained",
+                "label": {
+                  "ar": "زر ملون (خلفية ملونة)",
+                  "en": "Colored (with background)"
+                }
+              },
+              {
+                "value": "outlined",
+                "label": {
+                  "ar": "زر بإطار فقط",
+                  "en": "Outlined (border only)"
+                }
+              }
+            ],
+            "default": "contained"
+          },
+          "buttons_size": {
+            "type": "select",
+            "label": {
+              "ar": "حجم الزر",
+              "en": "Button Size"
+            },
+            "options": [
+              {
+                "value": "small",
+                "label": {
+                  "ar": "صغير",
+                  "en": "Small"
+                }
+              },
+              {
+                "value": "medium",
+                "label": {
+                  "ar": "متوسط",
+                  "en": "Medium"
+                }
+              },
+              {
+                "value": "large",
+                "label": {
+                  "ar": "كبير",
+                  "en": "Large"
+                }
+              }
+            ],
+            "default": "medium"
+          },
+          "buttons_background_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون خلفية الزر",
+              "en": "Button Background Color"
+            },
+            "default": "#000000"
+          },
+          "buttons_text_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون نص الزر",
+              "en": "Button Text Color"
+            },
+            "default": "#ffffff"
+          },
+          "buttons_border_radius": {
+            "type": "number",
+            "label": {
+              "ar": "استدارة حواف الزر",
+              "en": "Button Corner Roundness"
+            },
+            "minimum": 0,
+            "maximum": 50,
+            "default": 8
+          }
+        }
+      },
+      "typography_fieldset": {
+        "type": "fieldset",
+        "label": {
+          "ar": "الخطوط",
+          "en": "Typography"
+        },
+        "expandable": true,
+        "settings": {
+          "text_size_mobile": {
+            "type": "select",
+            "label": {
+              "ar": "حجم النص - الموبايل",
+              "en": "Text Size - Mobile"
+            },
+            "options": [
+              {
+                "value": "home-component-text-small",
+                "label": {
+                  "ar": "صغير",
+                  "en": "Small"
+                }
+              },
+              {
+                "value": "home-component-text-medium",
+                "label": {
+                  "ar": "متوسط",
+                  "en": "Medium"
+                }
+              },
+              {
+                "value": "home-component-text-large",
+                "label": {
+                  "ar": "كبير",
+                  "en": "Large"
+                }
+              }
+            ],
+            "default": "home-component-text-medium"
+          },
+          "text_size_desktop": {
+            "type": "select",
+            "label": {
+              "ar": "حجم النص - سطح المكتب",
+              "en": "Text Size - Desktop"
+            },
+            "options": [
+              {
+                "value": "lg:home-component-text-small",
+                "label": {
+                  "ar": "صغير",
+                  "en": "Small"
+                }
+              },
+              {
+                "value": "lg:home-component-text-medium",
+                "label": {
+                  "ar": "متوسط",
+                  "en": "Medium"
+                }
+              },
+              {
+                "value": "lg:home-component-text-large",
+                "label": {
+                  "ar": "كبير",
+                  "en": "Large"
+                }
+              }
+            ],
+            "default": "lg:home-component-text-medium"
+          },
+          "text_font_weight": {
+            "type": "select",
+            "label": {
+              "ar": "سُمك النص",
+              "en": "Text Font Weight"
+            },
+            "options": [
+              {
+                "value": "home-component-text-normal",
+                "label": {
+                  "ar": "عادي",
+                  "en": "Normal"
+                }
+              },
+              {
+                "value": "home-component-text-font-medium",
+                "label": {
+                  "ar": "متوسط",
+                  "en": "Medium"
+                }
+              },
+              {
+                "value": "home-component-text-bold",
+                "label": {
+                  "ar": "عريض",
+                  "en": "Bold"
+                }
+              }
+            ],
+            "default": "home-component-text-normal"
+          },
+          "text_align_mobile": {
+            "type": "select",
+            "label": {
+              "ar": "محاذاة النص - الموبايل",
+              "en": "Text Alignment - Mobile"
+            },
+            "options": [
+              {
+                "value": "text-left",
+                "label": {
+                  "ar": "يسار",
+                  "en": "Left"
+                }
+              },
+              {
+                "value": "text-center",
+                "label": {
+                  "ar": "وسط",
+                  "en": "Center"
+                }
+              },
+              {
+                "value": "text-right",
+                "label": {
+                  "ar": "يمين",
+                  "en": "Right"
+                }
+              }
+            ],
+            "default": "text-center",
+            "info": {
+              "ar": "اختر محاذاة النص للموبايل",
+              "en": "Choose text alignment for mobile"
+            }
+          },
+          "text_align_desktop": {
+            "type": "select",
+            "label": {
+              "ar": "محاذاة النص - سطح المكتب",
+              "en": "Text Alignment - Desktop"
+            },
+            "options": [
+              {
+                "value": "lg:text-left",
+                "label": {
+                  "ar": "يسار",
+                  "en": "Left"
+                }
+              },
+              {
+                "value": "lg:text-center",
+                "label": {
+                  "ar": "وسط",
+                  "en": "Center"
+                }
+              },
+              {
+                "value": "lg:text-right",
+                "label": {
+                  "ar": "يمين",
+                  "en": "Right"
+                }
+              }
+            ],
+            "default": "lg:text-left",
+            "info": {
+              "ar": "اختر محاذاة النص لسطح المكتب",
+              "en": "Choose text alignment for desktop"
+            }
+          }
+        }
+      }
+    }
+  },
+  "product_card": {
+    "name": {
+      "ar": "بطاقة المنتج",
+      "en": "Product card"
+    },
+    "icon": "fa fa-product-hunt",
+    "display": true,
+    "settings": {
+      "options": {
+        "type": "checkboxes",
+        "label": {
+          "ar": "الخيارات",
+          "en": "Options"
+        },
+        "options": [
+          {
+            "value": "hide_rating",
+            "label": {
+              "ar": "اخفاء التقييم",
+              "en": "Hide rating"
+            }
+          },
+          {
+            "value": "hide_add_to_cart",
+            "label": {
+              "ar": "اخفاء زر اضافة الي السلة",
+              "en": "Hide add to cart button"
+            }
+          },
+          {
+            "value": "hide_add_to_wishlist",
+            "label": {
+              "ar": "اخفاء زر اضافة الي المفضلة",
+              "en": "Hide add to wishlist button"
+            }
+          }
+        ]
+      },
+      "gap_bettwen_products": {
+        "type": "range",
+        "label": {
+          "ar": "المسافة بين المنتجات",
+          "en": "Gap between products"
+        },
+        "info": {
+          "ar": "تعيين المسافة بين المنتجات في المتجر ",
+          "en": "Set the gap between products on the store max 8px"
+        },
+        "minimum": 0,
+        "maximum": 8,
+        "step": 1
+      },
+      "card_border_radius": {
+        "type": "range",
+        "label": {
+          "ar": "التحكم في شكل استدارة  بطاقة المنتج",
+          "en": "Card  Border Radius"
+        },
+        "info": {
+          "ar": "تعيين شكل استدارة  بطاقة المنتج",
+          "en": "Set the card border radius"
+        },
+        "minimum": 0,
+        "maximum": 25,
+        "step": 1
+      },
+      "btns_border_radius": {
+        "type": "range",
+        "label": {
+          "ar": "التحكم في شكل استدارة زر بطاقة المنتج",
+          "en": "Card Button Border Radius"
+        },
+        "info": {
+          "ar": "تعيين شكل استدارة زر بطاقة المنتج",
+          "en": "Set the card button border radius"
+        },
+        "minimum": 0,
+        "maximum": 25,
+        "step": 1
+      },
+      "product_card_text_direction": {
+        "type": "select",
+        "label": {
+          "ar": "اتجاه نص بطاقة المنتج",
+          "en": "Product Card Text Direction"
+        },
+        "options": [
+          {
+            "value": "start",
+            "label": {
+              "ar": "بداية",
+              "en": "Start"
+            }
+          },
+          {
+            "value": "center",
+            "label": {
+              "ar": "وسط",
+              "en": "Center"
+            }
+          },
+          {
+            "value": "end",
+            "label": {
+              "ar": "نهاية",
+              "en": "End"
+            }
+          }
+        ],
+        "default": "start",
+        "info": {
+          "ar": "اختر اتجاه محاذاة النص في بطاقة المنتج",
+          "en": "Choose the text alignment direction for the product card"
+        }
+      },
+      "product_card_text_style": {
+        "type": "select",
+        "label": {
+          "ar": "نمط النص في بطاقة المنتج",
+          "en": "Product Card Text Style"
+        },
+        "options": [
+          {
+            "value": "light",
+            "label": {
+              "ar": "خفيف",
+              "en": "Light"
+            }
+          },
+          {
+            "value": "normal",
+            "label": {
+              "ar": "عادي",
+              "en": "Normal"
+            }
+          },
+          {
+            "value": "medium",
+            "label": {
+              "ar": "متوسط",
+              "en": "Medium"
+            }
+          },
+          {
+            "value": "bold",
+            "label": {
+              "ar": "عريض",
+              "en": "Bold"
+            }
+          }
+        ],
+        "default": "normal",
+        "info": {
+          "ar": "اختر نمط النص في بطاقة المنتج",
+          "en": "Choose the text style for the product card"
+        }
+      },
+      "title_font_size_mobile": {
+        "type": "number",
+        "label": {
+          "ar": "حجم خط عنوان المنتج (جوال)",
+          "en": "Slider title font size (Mobile)"
+        },
+        "minimum": 10,
+        "maximum": 32,
+        "step": 1,
+        "default": 18
+      },
+      "title_font_size_desktop": {
+        "type": "number",
+        "label": {
+          "ar": "حجم خط عنوان المنتج (الحاسوب)",
+          "en": "Slider title font size (Desktop)"
+        },
+        "minimum": 10,
+        "maximum": 48,
+        "step": 1,
+        "default": 18
+      },
+      "product_card_image_style": {
+        "type": "select",
+        "label": {
+          "ar": "نمط الصور في بطاقة المنتج",
+          "en": "Product Card Image Style"
+        },
+        "options": [
+          {
+            "value": "slider",
+            "label": {
+              "ar": "سلايد شو",
+              "en": "Slider"
+            }
+          },
+          {
+            "value": "hover",
+            "label": {
+              "ar": "تغير عند التاشير بالماوس",
+              "en": "Change on hover"
+            }
+          }
+        ],
+        "default": "hover",
+        "info": {
+          "ar": "اختر نمط الصور في بطاقة المنتج",
+          "en": "Choose the image style for the product card"
+        }
+      },
+      "product_card_style": {
+        "type": "select",
+        "label": {
+          "ar": "نمط بطاقة المنتج",
+          "en": "Product Card Style"
+        },
+        "options": [
+          {
+            "value": "classic",
+            "label": {
+              "ar": "كلاسيكي",
+              "en": "Classic"
+            }
+          },
+          {
+            "value": "modern",
+            "label": {
+              "ar": "حديث",
+              "en": "Modern"
+            }
+          },
+          {
+            "value": "modern-2",
+            "label": {
+              "ar": "حديث 2",
+              "en": "Modern 2"
+            }
+          }
+        ],
+        "default": "classic",
+        "info": {
+          "ar": "اختر النمط العام لبطاقة المنتج",
+          "en": "Choose the overall style for the product card"
+        }
+      },
+      "colors": {
+        "type": "fieldset",
+        "label": {
+          "ar": "الالوان",
+          "en": "Colors"
+        },
+        "icon": "font_awesome",
+        "expandable": true,
+        "settings": {
+          "title_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون العنوان",
+              "en": "Title color"
+            }
+          },
+          "card_background_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون خلفية البطاقة",
+              "en": "Card background color"
+            }
+          },
+          "card_border_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون حدود البطاقة",
+              "en": "Card border color"
+            }
+          },
+          "card_shadow": {
+            "type": "color",
+            "label": {
+              "ar": "لون الظل",
+              "en": "Card shadow"
+            }
+          },
+          "card_border_radius": {
+            "type": "text",
+            "label": {
+              "ar": "نصف قطر الزاوية",
+              "en": "Border radius"
+            }
+          },
+          "add_to_cart_background_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون خلفية زر اضافة الي السلة",
+              "en": "Add to cart background color"
+            }
+          },
+          "image_background_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون خلفية الصورة",
+              "en": "Image background color"
+            },
+            "info": {
+              "ar": "عندما تضيف صورة بدون خلفية سيظهر هذا اللون كخلفية",
+              "en": "When you add an image with no background, this color will appear as an overlay"
+            }
+          },
+          "add_to_cart_text_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون نص زر اضافة الي السلة",
+              "en": "Add to cart text color"
+            }
+          }
+        }
+      },
+      "image_size": {
+        "type": "fieldset",
+        "label": {
+          "ar": "حجم الصورة",
+          "en": "Image size"
+        },
+        "icon": "fa fa-image",
+        "expandable": true,
+        "settings": {
+          "aspect_ratio": {
+            "type": "select",
+            "label": {
+              "ar": "نسبة العرض الي الارتفاع",
+              "en": "Aspect ratio"
+            },
+            "options": [
+              {
+                "value": "1/1",
+                "label": {
+                  "ar": "مربع (1/1)",
+                  "en": "Square (1/1)"
+                }
+              },
+              {
+                "value": "3/4",
+                "label": {
+                  "ar": "عمودي (3/4)",
+                  "en": "Portrait (3/4)"
+                }
+              },
+              {
+                "value": "4/3",
+                "label": {
+                  "ar": "مستطيل (4/3)",
+                  "en": "Landscape (4/3)"
+                }
+              },
+              {
+                "value": "16/9",
+                "label": {
+                  "ar": "واسع (16/9)",
+                  "en": "Wide (16/9)"
+                }
+              },
+              {
+                "value": "9/16",
+                "label": {
+                  "ar": "طويل (9/16)",
+                  "en": "Tall (9/16)"
+                }
+              }
+            ],
+            "default": "3/4"
+          },
+          "object_fit": {
+            "type": "select",
+            "label": {
+              "ar": "تناسب الصورة",
+              "en": "Object fit"
+            },
+            "options": [
+              {
+                "value": "cover",
+                "label": {
+                  "ar": "تغطية",
+                  "en": "Cover"
+                }
+              },
+              {
+                "value": "contain",
+                "label": {
+                  "ar": "تضمين",
+                  "en": "Contain"
+                }
+              },
+              {
+                "value": "fill",
+                "label": {
+                  "ar": "ملئ",
+                  "en": "Fill"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "product_page": {
+    "name": {
+      "ar": "خيارات صفحة المنتج",
+      "en": "Product page options"
+    },
+    "icon": "fa fa-product",
+    "display": true,
+    "settings": {
+      "options": {
+        "type": "checkboxes",
+        "label": {
+          "ar": "الخيارات",
+          "en": "Options"
+        },
+        "options": [
+          {
+            "value": "add_product_imgs_parallax_effect",
+            "label": {
+              "ar": "جعل صور المنتج ثابتة عند التمرير (علي الجوال) ",
+              "en": "add paralax effect to product images"
+            }
+          },
+          {
+            "value": "transparant_header_at_start",
+            "label": {
+              "ar": " ازالة لون خلفية الهدر في بداية الصفحة (علي الجوال)",
+              "en": "make the header transparant at top (On Mobile)"
+            }
+          },
+          {
+            "value": "hide_product_short_description",
+            "label": {
+              "ar": " اخفاء وصف المنتج القصير",
+              "en": "Hide product short description"
+            }
+          }
+        ]
+      },
+      "product_img_render_style_desktop": {
+        "type": "select",
+        "label": {
+          "ar": "نمط عرض الصور علي الحاسوب",
+          "en": "Product image render style on desktop"
+        },
+        "options": [
+          {
+            "value": "vertical_slider",
+            "label": {
+              "ar": "سلايدر عمودي",
+              "en": "Vertical slider"
+            }
+          },
+          {
+            "value": "horizontal_slider_with_thumbnails",
+            "label": {
+              "ar": "سلايدر افقي مع الصور الصغيرة",
+              "en": "Horizontal slider with thumbnails"
+            }
+          }
+        ],
+        "default": "vertical_slider",
+        "info": {
+          "ar": "اختر نمط عرض الصور في صفحة المنتج علي الحاسوب",
+          "en": "Choose the image render style for the product page on desktop"
+        }
+      },
+      "product_detail_render_style": {
+        "type": "select",
+        "label": {
+          "ar": "نمط عرض تفاصيل المنتج",
+          "en": "Product detail render style"
+        },
+        "options": [
+          {
+            "value": "tabs-top",
+            "label": {
+              "ar": "تبويبات في الأعلى",
+              "en": "Tabs"
+            }
+          },
+          {
+            "value": "tabs-center",
+            "label": {
+              "ar": "تبويبات في المنتصف",
+              "en": "Tabs"
+            }
+          },
+          {
+            "value": "default",
+            "label": {
+              "ar": "افتراضي",
+              "en": "Default"
+            }
+          }
+        ],
+        "default": "tabs-top",
+        "info": {
+          "ar": "اختر نمط عرض تفاصيل المنتج",
+          "en": "Choose the product detail render style"
+        }
+      }
+
+    }
+  },
+  "category_page": {
+    "name": {
+      "ar": "خيارات صفحة المنتجات / التصنيف",
+      "en": "Category page options"
+    },
+    "icon": "fa fa-list",
+    "display": true,
+    "settings": {
+      "options": {
+        "type": "checkboxes",
+        "label": {
+          "ar": "الخيارات",
+          "en": "Options"
+        },
+        "options": [
+          {
+            "value": "enable_product_grid_control",
+            "label": {
+              "ar": "تمكين التحكم بشبكة المنتجات",
+              "en": "Enable product grid control"
+            }
+          },
+          {
+            "value": "enable_breadcrumb",
+            "label": {
+              "ar": "تمكين شريط التنقل",
+              "en": "Enable breadcrumb"
+            },
+            "default": true
+          }
+        ]
+      },
+      "category_paginatin_mode": {
+        "type": "select",
+        "label": {
+          "ar": "نمط تصفح المنتجات",
+          "en": "Products pagination mode"
+        },
+        "options": [
+          {
+            "value": "button",
+            "label": {
+              "ar": "زر تحميل المزيد",
+              "en": "Load more button"
+            }
+          },
+          {
+            "value": "infinite",
+            "label": {
+              "ar": "تمرير لا نهائي",
+              "en": "Infinite scroll"
+            }
+          }
+        ],
+        "default": "load_more"
+      },
+      "products_page_settings": {
+        "type": "fieldset",
+        "label": {
+          "ar": "اعدادات صفحة المنتجات",
+          "en": "Products page settings"
+        },
+        "icon": "fa fa-cogs",
+        "expandable": true,
+        "settings": {
+          "products_page_title": {
+            "type": "text",
+            "label": {
+              "ar": "عنوان صفحة المنتجات",
+              "en": "Products page title"
+            },
+            "default": {
+              "ar": "المنتجات",
+              "en": "Products"
+            }
+          },
+          "products_page_description": {
+            "type": "textarea",
+            "label": {
+              "ar": "وصف صفحة المنتجات",
+              "en": "Products page description"
+            },
+            "default": {
+              "ar": "هنا يمكنك العثور علي جميع المنتجات",
+              "en": "Here you can find all products"
+            }
+          },
+          "products_page_image_cover": {
+            "type": "image",
+            "label": {
+              "ar": "صورة غلاف صفحة المنتجات",
+              "en": "Products page cover image"
+            }
+          }
+        }
+      }
+    }
+  },
+  "pwa": {
+    "name": {
+      "ar": "تطبيق ويب تقدمي",
+      "en": "Progressive Web App"
+    },
+    "icon": "fa fa-mobile",
+    "display": true,
+    "settings": {
+      "app_name": {
+        "type": "text",
+        "label": {
+          "ar": "اسم التطبيق",
+          "en": "App name"
+        },
+        "default": {
+          "ar": "اسم التطبيق",
+          "en": "App name"
+        }
+      },
+      "app_short_name": {
+        "type": "text",
+        "label": {
+          "ar": "اسم التطبيق المختصر",
+          "en": "App short name"
+        },
+        "default": {
+          "ar": "اسم التطبيق المختصر",
+          "en": "App short name"
+        }
+      },
+      "app_description": {
+        "type": "text",
+        "label": {
+          "ar": "وصف التطبيق",
+          "en": "App description"
+        },
+        "default": {
+          "ar": "وصف التطبيق",
+          "en": "App description"
+        }
+      },
+      "app_theme_color": {
+        "type": "color",
+        "label": {
+          "ar": "لون التطبيق (theme color)",
+          "en": "App theme color"
+        },
+        "info": {
+          "ar": "التحكم في لون خلفية شريط الحالة العلوي في التطبيق",
+          "en": "control the background color of the title bar in the app"
+        }
+      },
+      "app_background_color": {
+        "type": "color",
+        "label": {
+          "ar": "لون خلفية التطبيق",
+          "en": "App background color"
+        },
+        "info": {
+          "ar": "التحكم في لون خلفية شاشة البداية التي تظهر عندما يتم تثبيت التطبيق",
+          "en": "control the background color of the splash screen that appears when the app is installed"
+        }
+      },
+      "icon_512": {
+        "type": "image",
+        "label": {
+          "ar": "الايقونة 512 * 512",
+          "en": "Icon 512 * 512"
+        },
+        "info": {
+          "ar": "ارفع صورة بحجم 512 * 512 ",
+          "en": "This is an info text sample here"
+        }
+      },
+      "icon_192": {
+        "type": "image",
+        "label": {
+          "ar": "الايقونة 192 * 192",
+          "en": "Icon 192 * 192"
+        },
+        "info": {
+          "ar": "ارفع صورة بحجم 192 * 192 ",
+          "en": "This is an info text sample here"
+        }
+      },
+      "pwa_screenshots": {
+        "type": "fieldset",
+        "label": {
+          "ar": "صور التطبيق",
+          "en": "App screenshots"
+        },
+        "icon": "fa fa-image",
+        "expandable": true,
+        "settings": {
+          "pwa_screenshots_1": {
+            "type": "image",
+            "label": {
+              "ar": "صورة 1",
+              "en": "Image 1"
+            },
+            "info": {
+              "ar": "ارفع صورة بحجم 1080 * 1920",
+              "en": "This is an info text sample here"
+            }
+          },
+          "pwa_screenshots_2": {
+            "type": "image",
+            "label": {
+              "ar": "صورة 2",
+              "en": "Image 2"
+            },
+            "info": {
+              "ar": "ارفع صورة بحجم 1080 * 1920",
+              "en": "This is an info text sample here"
+            }
+          },
+          "pwa_screenshots_3": {
+            "type": "image",
+            "label": {
+              "ar": "صورة 3",
+              "en": "Image 3"
+            },
+            "info": {
+              "ar": "ارفع صورة بحجم 1080 * 1920",
+              "en": "This is an info text sample here"
+            }
+          },
+          "pwa_screenshots_4": {
+            "type": "image",
+            "label": {
+              "ar": "صورة 4",
+              "en": "Image 4"
+            },
+            "info": {
+              "ar": "ارفع صورة بحجم 1080 * 1920",
+              "en": "This is an info text sample here"
+            }
+          }
+        }
+      },
+      "pwa_install_banner": {
+        "type": "fieldset",
+        "label": {
+          "ar": "بانر تثبيت التطبيق",
+          "en": "Install app banner"
+        },
+        "icon": "font_awesome",
+        "expandable": true,
+        "settings": {
+          "display": {
+            "type": "checkbox",
+            "label": {
+              "ar": " ",
+              "en": " "
+            },
+            "option": {
+              "ar": "إظهار بانر التثبيت",
+              "en": "Display install banner"
+            },
+            "noLabel": true
+          },
+          "title": {
+            "type": "text",
+            "label": {
+              "ar": "عنوان البانر",
+              "en": "Banner title"
+            }
+          },
+          "description": {
+            "type": "text",
+            "label": {
+              "ar": "وصف البانر",
+              "en": "Banner description"
+            }
+          },
+          "background_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون خلفية البانر",
+              "en": "Banner background color"
+            }
+          },
+          "text_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون النص",
+              "en": "Text color"
+            }
+          },
+          "install_button_text": {
+            "type": "text",
+            "label": {
+              "ar": "نص زر التثبيت",
+              "en": "Install button text"
+            }
+          },
+          "button_background_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون خلفية الزر",
+              "en": "Button background color"
+            }
+          },
+          "button_text_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون نص الزر",
+              "en": "Button text color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "splash_screen": {
+    "name": {
+      "ar": "شاشة البداية",
+      "en": "Splash Screen"
+    },
+    "icon": "fa fa-desktop",
+    "display": true,
+    "settings": {
+      "display": {
+        "type": "checkbox",
+        "label": {
+          "ar": " ",
+          "en": " "
+        },
+        "option": {
+          "ar": "إظهار شاشة البداية",
+          "en": "Display splash screen"
+        },
+        "noLabel": true
+      },
+      "page_display": {
+        "type": "select",
+        "label": {
+          "ar": "عرض شاشة البداية في",
+          "en": "Display splash screen in"
+        },
+        "options": [
+          {
+            "value": "all",
+            "label": {
+              "ar": "جميع الصفحات",
+              "en": "all pages"
+            }
+          },
+          {
+            "value": "home",
+            "label": {
+              "ar": "الصفحة الرئيسية فقط",
+              "en": "home page only"
+            }
+          }
+        ],
+        "default": "all"
+      },
+      "logo": {
+        "type": "image",
+        "label": {
+          "ar": "الشعار",
+          "en": "Logo"
+        },
+        "info": {
+          "ar": "يفضل استخدام صورة شفافة بحجم 200 * 200",
+          "en": "Preferably use a transparent image of size 200 * 200"
+        }
+      },
+      "background_color": {
+        "type": "color",
+        "label": {
+          "ar": "لون الخلفية",
+          "en": "Background color"
+        },
+        "info": {
+          "ar": "لون خلفية شاشة البداية",
+          "en": "Background color of the splash screen"
+        }
+      },
+      "show_loader": {
+        "type": "checkbox",
+        "label": {
+          "ar": " ",
+          "en": " "
+        },
+        "option": {
+          "ar": "إظهار مؤشر التحميل",
+          "en": "Show loader"
+        },
+        "noLabel": true
+      },
+      "loader_type": {
+        "type": "select",
+        "label": {
+          "ar": "نوع التحميل",
+          "en": "Loader Type"
+        },
+        "options": [
+          {
+            "value": "spinner",
+            "label": {
+              "ar": "دوار",
+              "en": "Spinner"
+            }
+          },
+          {
+            "value": "pulse",
+            "label": {
+              "ar": "نبض",
+              "en": "Pulse"
+            }
+          },
+          {
+            "value": "ring",
+            "label": {
+              "ar": "حلقة",
+              "en": "Ring"
+            }
+          },
+          {
+            "value": "dualring",
+            "label": {
+              "ar": "حلقة مزدوجة",
+              "en": "Dual Ring"
+            }
+          },
+          {
+            "value": "circledots",
+            "label": {
+              "ar": "نقاط دائرية",
+              "en": "Circle Dots"
+            }
+          }
+        ],
+        "default": "spinner"
+      },
+      "loader_colors": {
+        "type": "fieldset",
+        "label": {
+          "ar": "الوان مؤشر التحميل",
+          "en": "Loader colors"
+        },
+        "icon": "font_awesome",
+        "expandable": true,
+        "settings": {
+          "loader_color": {
+            "type": "color",
+            "label": {
+              "ar": "لون مؤشر التحميل",
+              "en": "Loader color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "chat_btn": {
+    "name": {
+      "ar": "زر الاتصال السريع",
+      "en": "Quick Contact Button"
+    },
+    "icon": "fa fa-chat",
+    "display": true,
+    "settings": {
+      "display": {
+        "type": "checkbox",
+        "label": {
+          "ar": "إظهار زر الاتصال (مثال: تفعيل أو إلغاء تفعيل الزر)",
+          "en": "Show Contact Button (e.g., Enable or Disable the button)"
+        },
+        "option": {
+          "ar": "تفعيل الزر",
+          "en": "Enable Contact Button"
+        },
+        "noLabel": true
+      },
+      "background_color": {
+        "type": "color",
+        "label": {
+          "ar": "لون خلفية الزر (مثال: #FFFFFF للون الأبيض)",
+          "en": "Button Background Color (e.g., #FFFFFF for white)"
+        },
+        "info": {
+          "ar": "اختر لون الخلفية لزر الاتصال السريع",
+          "en": "Choose the background color for the quick contact button"
+        }
+      },
+      "icon_color": {
+        "type": "color",
+        "label": {
+          "ar": "لون أيقونة الزر (مثال: #000000 للون الأسود)",
+          "en": "Button Icon Color (e.g., #000000 for black)"
+        },
+        "info": {
+          "ar": "اختر لون الأيقونة لزر الاتصال السريع",
+          "en": "Choose the icon color for the quick contact button"
+        }
+      },
+      "contacts_list": {
+        "type": "fieldset",
+        "label": {
+          "ar": "قائمة وسائل الاتصال",
+          "en": "Contact Methods"
+        },
+        "info": {
+          "ar": "أضف معلومات الاتصال لإظهارها عند النقر على الزر",
+          "en": "Add contact information to display when the button is clicked"
+        },
+        "expandable": true,
+        "settings": {
+          "phone": {
+            "type": "text",
+            "label": {
+              "ar": "رقم الهاتف (مثال: +966512345678)",
+              "en": "Phone Number (e.g., +1 123 456 7890)"
+            },
+            "info": {
+              "ar": "أدخل رقم الهاتف الذي ترغب بإظهاره",
+              "en": "Enter the phone number to display"
+            }
+          },
+          "email": {
+            "type": "text",
+            "label": {
+              "ar": "البريد الإلكتروني (مثال: example@email.com)",
+              "en": "Email Address (e.g., example@email.com)"
+            },
+            "info": {
+              "ar": "أدخل عنوان البريد الإلكتروني للاتصال",
+              "en": "Enter the email address for contact"
+            }
+          },
+          "whatsapp": {
+            "type": "text",
+            "label": {
+              "ar": "رقم واتساب (مثال: +966512345678)",
+              "en": "WhatsApp Number (e.g., +1 123 456 7890)"
+            },
+            "info": {
+              "ar": "أدخل رقم الواتساب للتواصل",
+              "en": "Enter the WhatsApp number for contact"
+            }
+          },
+          "telegram": {
+            "type": "text",
+            "label": {
+              "ar": "اسم مستخدم تيليجرام (مثال: @username)",
+              "en": "Telegram Username (e.g., @username)"
+            },
+            "info": {
+              "ar": "أدخل اسم المستخدم في تيليجرام للتواصل",
+              "en": "Enter the Telegram username for contact"
+            }
+          }
+        }
+      }
+    }
+  }
+}
